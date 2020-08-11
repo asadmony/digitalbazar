@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-size:16px;
+}
+.call_support{
+	margin-top:10px;
+	color:#07B551;
+	font-size:18px;
+	line-height:22px;
+}
+.empad{
+	padding:10px;
+	
+}
+textarea{
+	width:100%;
+	resize: none;
+	height:200px;
+}
+input{
+	width:100%;
+	height:50px;
+	border:1px solid #666666;
+}
+.thumbnail:hover{
+	background:#fff;
+}
+.submit{
+	background:#6EDD95;
+	border:none;
+}

@@ -1,0 +1,19 @@
+RewriteEngine On
+
+RewriteRule ^home?$ index.php [NC,L]
+RewriteRule ^page-([0-9]+)                  	index.php?page=$1 [NC,L]
+RewriteRule ^institute-([0-9]+)             	institute.php?ID=$1 [NC,L]
+RewriteRule ^product-([0-9]+) 		    	product.php?ID=$1  [NC,L]
+RewriteRule ^products-([0-9]+)/page-([0-9]+) 	products.php?ID=$1&page=$2 [QSA,NC,L]
+RewriteRule ^products-([0-9]+)/ 	    	products.php?ID=$1
+RewriteRule ^contacts-([0-9]+)		    	contacts.php?ID=$1  [NC,L]
+RewriteRule ^map-([0-9]+) 		    	map.php?ID=$1 [NC,L]
+RewriteRule ^search=([a-zA-Z0-9-_]+)		search.php?what=$1&page=$2 [NC,L]
+RewriteRule ^search=([a-zA-Z0-9-_]+)$		search.php?what=$1 [NC,L]
+RewriteRule ^search				search.php [NC,L]
+RewriteRule ^aboutus				about_us.php [NC,L]
+RewriteRule ^underconstruction			under_construction.php [NC,L]
+RewriteRule ^login				sign_in.php [NC,L]
+RewriteRule ^confirm_email			confirmemail.php [NC,L]
+RewriteRule ^confirm				confirmcode.php [NC,L]
+RewriteRule ^forgot_password			forgotpassword.php [NC,L]

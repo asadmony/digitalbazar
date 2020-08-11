@@ -1,0 +1,13 @@
+.db_maplogo{
+	height: 100vh;
+	border-right: 1px solid #000;
+}
+.btn-success a, .btn-success a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+@media screen and (max-width:990px){
+	.db_maplogo{
+		border: none;
+	}
+}

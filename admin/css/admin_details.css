@@ -1,0 +1,48 @@
+.dash_menu_db{
+  height: 190vh;
+  border-right: 1px solid #000;
+}
+.dash_menu_db ul{
+  list-style: none;
+}
+.dash_menu_db ul li{
+  padding-top: 22px;
+}
+.page_details{
+	display: block;
+	background-color: #eee;
+	padding: 10px 0;
+	padding-left: 30px;
+	border-radius: 5px;
+}
+.btn {
+	background-color: #eee;
+	color: #000;
+	margin-top: 10px;
+}
+.catagory{
+	margin-top: 50px;
+}
+table tr td{
+	padding: 1px 5px;
+}
+.add_catagory{
+	margin-left: 85px;
+}
+.open_hour{
+	margin-top: 50px;
+}
+
+.time{
+	width: 30px !important;
+}
+.facilities{
+	margin-top: 50px;
+}
+.others{
+	margin-top: 50px;
+}
+
+.others_form{
+	width: 100%;
+}

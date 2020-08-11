@@ -1,0 +1,27 @@
+.dash_menu{
+  border-right: 1px solid #000;
+  height: 120vh;
+}
+.dash_menu ul{
+  list-style: none;
+}
+.dash_menu ul li{
+  padding-top: 22px;
+}
+.dash_content{
+  padding-top: 20px;
+}
+.dash_content ul{
+  list-style: none;
+  margin-top: 30px;
+}
+.dash_content ul li{
+  float: left;
+  padding: 10px 15px;
+}
+.add_product{
+  display: block;
+  background-color: #eee;
+  padding: 10px 0;
+  padding-left: 30px;
+}
